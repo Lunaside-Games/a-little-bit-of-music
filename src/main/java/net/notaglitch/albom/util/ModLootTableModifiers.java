@@ -14,6 +14,7 @@ public class ModLootTableModifiers {
 
 
     public static void modifyLootTables(){
+        //Start Spelunk Disc Modifiers
         LootTableEvents.MODIFY.register((key, tableBuilder, source, registry) -> {
             if(LootTables.ANCIENT_CITY_ICE_BOX_CHEST.equals(key)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
@@ -141,6 +142,7 @@ public class ModLootTableModifiers {
 
                 tableBuilder.pool(poolBuilder.build());
             }
+            //End Spelunk Disc Modifiers
         });
     }
 }
