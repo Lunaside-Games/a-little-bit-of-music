@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "albom",
+	"version": "${version}",
+	"name": "A Little Bit of Music!",
+	"description": "The official music disc pack for A Little Bit of Everything!",
+	"authors": [
+		"TheAndromedaCat","Lunaside Games","Not a Glitch Studios"
+	],
+	"contact": {
+		"homepage": "https://go.notaglitch.net",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/albom/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.notaglitch.albom.ALittleBitOfMusic"
+		],
+		"client": [
+			"net.notaglitch.albom.ALittleBitOfMusicClient"
+		],
+		"fabric-datagen": [
+			"net.notaglitch.albom.ALittleBitOfMusicDataGenerator"
+		]
+	},
+	"mixins": [
+		"albom.mixins.json",
+		{
+			"config": "albom.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
