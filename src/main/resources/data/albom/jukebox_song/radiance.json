@@ -1,6 +1,8 @@
 {
   "comparator_output": 15,
-  "description": "item.albom.disc_radiance.desc",
+  "description": {
+    "translate":"item.albom.disc_radiance.desc"
+  },
   "length_in_seconds": 226.0,
   "sound_event": {
     "sound_id": "albom:radiance"
