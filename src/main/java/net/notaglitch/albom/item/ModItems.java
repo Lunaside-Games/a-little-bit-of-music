@@ -12,7 +12,7 @@ import net.notaglitch.albom.sound.ModSounds;
 public class ModItems {
     public static final Item MUSIC_DISC_SPELUNK = registerItem("music_disc_spelunk",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.SPELUNK_KEY).maxCount(1)));
-    public static final Item MUSIC_DISC_RADIANCE = registerItem("music_disk_radiance",
+    public static final Item MUSIC_DISC_RADIANCE = registerItem("music_disc_radiance",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.RADIANCE_KEY).maxCount(1)));
 
     private static Item registerItem(String name, Item item){
