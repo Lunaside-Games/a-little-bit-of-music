@@ -5,5 +5,13 @@
     "name": "albom:spelunk",
         "stream": true
   }
-]  }
+]  },
+  "Radiance": {
+    "sounds": [
+      {
+        "name": "albom:radiance",
+        "stream": true
+      }
+    ]
+  }
 }

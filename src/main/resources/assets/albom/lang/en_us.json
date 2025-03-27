@@ -1,6 +1,8 @@
 {
   "item.albom.music_disc_spelunk": "Music Disc",
   "item.albom.disc_spelunk.desc": "Placeholder Spelunk Disc Name",
+  "item.albom.music_disc_radiance": "Music Disc",
+  "item.albom.disc_radiance.desc": "Anton Luz - Radiance",
 
   "itemgroup.albom.items": "A Little Bit of Music!"
 }

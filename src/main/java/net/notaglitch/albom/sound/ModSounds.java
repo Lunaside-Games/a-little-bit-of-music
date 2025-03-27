@@ -14,6 +14,8 @@ public class ModSounds {
     public static final SoundEvent SPELUNK = registerSoundEvent("spelunk");
     public static final RegistryKey<JukeboxSong> SPELUNK_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(ALittleBitOfMusic.MOD_ID, "spelunk"));
+    public static final RegistryKey<JukeboxSong> RADIANCE_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(ALittleBitOfMusic.MOD_ID, "radiance"));
 
 
 

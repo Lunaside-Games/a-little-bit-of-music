@@ -18,6 +18,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.albom.items"))
                     .entries((displayContext, entries) -> {
                 entries.add(ModItems.MUSIC_DISC_SPELUNK);
+                entries.add(ModItems.MUSIC_DISC_RADIANCE);
 
             }).build());
 
