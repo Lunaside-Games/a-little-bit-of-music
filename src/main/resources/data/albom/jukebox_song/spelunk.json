@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate":"item.albom.disc_spelunk.desc"
+  },
+  "length_in_seconds": 218,
+  "sound_event": "albom:spelunk"
+}

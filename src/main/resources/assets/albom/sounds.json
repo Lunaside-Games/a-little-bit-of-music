@@ -1,0 +1,9 @@
+{
+  "spelunk": {
+    "sounds": [
+      {
+    "name": "albom:spelunk",
+        "stream": true
+  }
+]  }
+}

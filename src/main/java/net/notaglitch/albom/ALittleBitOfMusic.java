@@ -2,7 +2,10 @@ package net.notaglitch.albom;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.notaglitch.albom.item.ModItemGroups;
 import net.notaglitch.albom.item.ModItems;
+import net.notaglitch.albom.sound.ModSounds;
+import net.notaglitch.albom.util.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +15,9 @@ public class ALittleBitOfMusic implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModSounds.registerSounds();
+		ModLootTableModifiers.modifyLootTables();
 	}
 }
