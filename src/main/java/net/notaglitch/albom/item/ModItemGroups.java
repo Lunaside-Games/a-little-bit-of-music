@@ -19,6 +19,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                 entries.add(ModItems.MUSIC_DISC_SPELUNK);
                 entries.add(ModItems.MUSIC_DISC_RADIANCE);
+                entries.add(ModItems.MUSIC_DISC_HOTEL);
 
             }).build());
 

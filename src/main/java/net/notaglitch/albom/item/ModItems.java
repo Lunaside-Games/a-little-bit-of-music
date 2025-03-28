@@ -15,6 +15,9 @@ public class ModItems {
             new Item(new Item.Settings().rarity(Rarity.RARE).jukeboxPlayable(ModSounds.SPELUNK_KEY).maxCount(1)));
     public static final Item MUSIC_DISC_RADIANCE = registerItem("music_disc_radiance",
             new Item(new Item.Settings().rarity(Rarity.RARE).jukeboxPlayable(ModSounds.RADIANCE_KEY).maxCount(1)));
+    public static final Item MUSIC_DISC_HOTEL = registerItem("music_disc_hotel",
+            new Item(new Item.Settings().rarity(Rarity.RARE).jukeboxPlayable(ModSounds.HOTEL_KEY).maxCount(1)));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(ALittleBitOfMusic.MOD_ID, name), item);
@@ -26,6 +29,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.SEARCH).register(entries -> {
             entries.add(MUSIC_DISC_SPELUNK);
             entries.add(MUSIC_DISC_RADIANCE);
+            entries.add(MUSIC_DISC_HOTEL);
         });
     }
 }
