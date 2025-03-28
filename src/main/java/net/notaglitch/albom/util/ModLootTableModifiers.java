@@ -12,8 +12,8 @@ import net.minecraft.util.Identifier;
 import net.notaglitch.albom.item.ModItems;
 
 public class ModLootTableModifiers {
-    public static final Identifier CREEPER_ID
-            = Identifier.of("minecraft", "entities/creeper");
+    public static final Identifier ENDERMAN_ID
+            = Identifier.of("minecraft", "entities/enderman");
 
     public static void modifyLootTables(){
         //Start Spelunk Disc Modifiers
@@ -182,7 +182,69 @@ public class ModLootTableModifiers {
                 tableBuilder.pool(poolBuilder.build());
             }
             // Start A Normal Hotel Loot Tables
+            if(LootTables.WOODLAND_MANSION_CHEST.equals(key)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.084f))
+                        .with(ItemEntry.builder(ModItems.MUSIC_DISC_HOTEL))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(ENDERMAN_ID.equals(key.getValue())) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.035f))
+                        .with(ItemEntry.builder(ModItems.MUSIC_DISC_HOTEL))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(LootTables.ANCIENT_CITY_CHEST.equals(key)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.075f))
+                        .with(ItemEntry.builder(ModItems.MUSIC_DISC_HOTEL))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(LootTables.ANCIENT_CITY_ICE_BOX_CHEST.equals(key)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.092f))
+                        .with(ItemEntry.builder(ModItems.MUSIC_DISC_HOTEL))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(LootTables.ABANDONED_MINESHAFT_CHEST.equals(key)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.024f))
+                        .with(ItemEntry.builder(ModItems.MUSIC_DISC_HOTEL))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(LootTables.STRONGHOLD_LIBRARY_CHEST.equals(key)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.052f))
+                        .with(ItemEntry.builder(ModItems.MUSIC_DISC_HOTEL))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(LootTables.HERO_OF_THE_VILLAGE_LIBRARIAN_GIFT_GAMEPLAY.equals(key)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.01f))
+                        .with(ItemEntry.builder(ModItems.MUSIC_DISC_HOTEL))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
         });
     }
 }
