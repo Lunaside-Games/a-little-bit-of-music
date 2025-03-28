@@ -17,6 +17,8 @@ public class ModSounds {
     public static final SoundEvent RADIANCE = registerSoundEvent("radiance");
     public static final RegistryKey<JukeboxSong> RADIANCE_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(ALittleBitOfMusic.MOD_ID, "radiance"));
+    public static final RegistryKey<JukeboxSong> HOTEL_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(ALittleBitOfMusic.MOD_ID, "hotel"));
 
 
 

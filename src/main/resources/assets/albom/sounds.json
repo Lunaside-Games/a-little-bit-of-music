@@ -13,5 +13,13 @@
         "stream": true
       }
     ]
+  },
+  "hotel": {
+    "sounds": [
+      {
+        "name": "albom:hotel",
+        "stream": true
+      }
+    ]
   }
 }
