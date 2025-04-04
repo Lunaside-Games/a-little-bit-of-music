@@ -11,6 +11,5 @@ The most common, and *funky* sounding track
 The most INTENSE and UPBEAT track, found near the end of the game!
 
 
-![A Normal Hotel Disc](https://cdn.modrinth.com/data/cached_images/69e98473d0ba00871e13b2f8a99babd8d58bf40c.png)**A Normal Hotel**
+![A Normal Hotel Disc](https://cdn.modrinth.com/data/cached_images/69e98473d0ba00871e13b2f8a99babd8d58bf40c.png)[**A Normal Hotel**](https://www.youtube.com/watch?v=rNu5WzhXy24)
 A creepy, almost surreal sounding track found in the depths of the Pillagers' home.. and anywhere built by the mysterious builders whom we inherited this world from
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rNu5WzhXy24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
