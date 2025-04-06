@@ -15,6 +15,6 @@ The most INTENSE and UPBEAT track, found near the end of the game!
 ![A Normal Hotel Disc](https://cdn.modrinth.com/data/cached_images/69e98473d0ba00871e13b2f8a99babd8d58bf40c.png)[**A Normal Hotel - Anton Luz**](https://www.youtube.com/watch?v=rNu5WzhXy24)
 A creepy, almost surreal sounding track found in the depths of the Pillagers' home.. and anywhere built by the mysterious builders whom we inherited this world from
 **+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+**
-![music_disc_jade_scaled_63x_pngcrushed](https://github.com/user-attachments/assets/4bcef6e6-4a3a-4fda-8695-3429c5c43719)[**Jade - vladward**(https://youtu.be/VcSrkO5TcXU)
+![music_disc_jade_scaled_63x_pngcrushed](https://github.com/user-attachments/assets/4bcef6e6-4a3a-4fda-8695-3429c5c43719)[**Jade - vladward**](https://youtu.be/VcSrkO5TcXU)
 
 _All music in this mod is licensed by [Not a Glitch Music](https://www.youtube.com/@notaglitchmusic), this mod and the ALBOE project overall is being developed by members of Not a Glitch Studios._
