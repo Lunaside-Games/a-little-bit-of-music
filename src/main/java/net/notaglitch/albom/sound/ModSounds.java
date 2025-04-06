@@ -19,6 +19,21 @@ public class ModSounds {
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(ALittleBitOfMusic.MOD_ID, "radiance"));
     public static final RegistryKey<JukeboxSong> HOTEL_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(ALittleBitOfMusic.MOD_ID, "hotel"));
+    public static final RegistryKey<JukeboxSong> JADE_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(ALittleBitOfMusic.MOD_ID, "jade" ));
+
+
+    // Creative Discs
+    public static final RegistryKey<JukeboxSong> RAINY_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(ALittleBitOfMusic.MOD_ID, "rainy" ));
+    public static final RegistryKey<JukeboxSong> GRAVEYARD_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(ALittleBitOfMusic.MOD_ID, "graveyard" ));
+    public static final RegistryKey<JukeboxSong> MYSTIQUE_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(ALittleBitOfMusic.MOD_ID, "mystique" ));
+    public static final RegistryKey<JukeboxSong> CORAL_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(ALittleBitOfMusic.MOD_ID, "coral" ));
+    public static final RegistryKey<JukeboxSong> SNOWFALL_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(ALittleBitOfMusic.MOD_ID, "snowfall" ));
 
 
 

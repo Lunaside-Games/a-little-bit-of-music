@@ -1,0 +1,10 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate":"item.albom.disc_coral.desc"
+  },
+  "length_in_seconds": 155.0,
+  "sound_event": {
+    "sound_id": "albom:coral"
+  }
+}

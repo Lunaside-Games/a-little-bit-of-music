@@ -1,0 +1,10 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate":"item.albom.disc_graveyard.desc"
+  },
+  "length_in_seconds": 140.0,
+  "sound_event": {
+    "sound_id": "albom:graveyard"
+  }
+}

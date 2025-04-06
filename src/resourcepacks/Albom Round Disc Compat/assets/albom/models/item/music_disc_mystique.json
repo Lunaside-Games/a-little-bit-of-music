@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "albom:item/music_disc_mystique"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "round": 1
+      },
+      "model": "albom:item/music_disc_mystique_round"
+    }
+  ]
+}

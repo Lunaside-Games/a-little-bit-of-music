@@ -5,6 +5,21 @@
   "item.albom.disc_radiance.desc": "Anton Luz - Radiance",
   "item.albom.music_disc_hotel": "Music Disc",
   "item.albom.disc_hotel.desc": "Anton Luz - A Normal Hotel",
+  "item.albom.music_disc_jade": "Music Disc",
+  "item.albom.disc_jade.desc": "vladward - Jade",
 
-  "itemgroup.albom.items": "A Little Bit of Music!"
+
+  "item.albom.music_disc_rainy": "Creative Music Disc",
+  "item.albom.disc_rainy.desc": "Anton Luz - Rainy Waltz",
+  "item.albom.music_disc_graveyard": "Creative Music Disc",
+  "item.albom.disc_graveyard.desc": "Anton Luz - Graveyard Shift",
+  "item.albom.music_disc_mystique": "Creative Music Disc",
+  "item.albom.disc_mystique.desc": "Anton Luz - Mystique",
+  "item.albom.music_disc_coral": "Creative Music Disc",
+  "item.albom.disc_coral.desc": "Anton Luz - Coral Depths",
+  "item.albom.music_disc_snowfall": "Creative Music Disc",
+  "item.albom.disc_snowfall.desc": "Anton Luz - Snowfall",
+
+  "itemgroup.albom.items": "A Little Bit of Music!",
+  "itemgroup.albom.creativedisc": "ALBOM Creative Discs"
 }

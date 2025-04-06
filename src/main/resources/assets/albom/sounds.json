@@ -21,5 +21,53 @@
         "stream": true
       }
     ]
+  },
+  "jade": {
+    "sounds": [
+      {
+        "name": "albom:jade",
+        "stream": true
+      }
+    ]
+  },
+  "rainy": {
+    "sounds": [
+      {
+        "name": "albom:rainy",
+        "stream": true
+      }
+    ]
+  },
+  "graveyard": {
+    "sounds": [
+      {
+        "name": "albom:graveyard",
+        "stream": true
+      }
+    ]
+  },
+  "mystique": {
+    "sounds": [
+      {
+        "name": "albom:mystique",
+        "stream": true
+      }
+    ]
+  },
+  "coral": {
+    "sounds": [
+      {
+        "name": "albom:coral",
+        "stream": true
+      }
+    ]
+  },
+  "snowfall": {
+    "sounds": [
+      {
+        "name": "albom:snowfall",
+        "stream": true
+      }
+    ]
   }
 }
