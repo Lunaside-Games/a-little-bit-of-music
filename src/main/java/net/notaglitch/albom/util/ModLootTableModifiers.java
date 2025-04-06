@@ -254,6 +254,43 @@ public class ModLootTableModifiers {
 
                 tableBuilder.pool(poolBuilder.build());
             }
+            // Start Jade Loot Tables
+                if(LootTables.IGLOO_CHEST_CHEST.equals(key)){
+                    LootPool.Builder poolBuilder = LootPool.builder()
+                            .rolls(ConstantLootNumberProvider.create(1))
+                            .conditionally(RandomChanceLootCondition.builder(0.052f))
+                            .with(ItemEntry.builder(ModItems.MUSIC_DISC_JADE))
+                            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                    tableBuilder.pool(poolBuilder.build());
+                }
+            if(LootTables.SIMPLE_DUNGEON_CHEST.equals(key)){
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.084f))
+                        .with(ItemEntry.builder(ModItems.MUSIC_DISC_JADE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(LootTables.BURIED_TREASURE_CHEST.equals(key)){
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.094f))
+                        .with(ItemEntry.builder(ModItems.MUSIC_DISC_JADE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(LootTables.FISHING_TREASURE_GAMEPLAY.equals(key)){
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.062f))
+                        .with(ItemEntry.builder(ModItems.MUSIC_DISC_JADE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
         });
     }
 }
