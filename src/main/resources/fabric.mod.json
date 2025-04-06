@@ -5,11 +5,11 @@
 	"name": "A Little Bit of Music!",
 	"description": "The official music disc pack for A Little Bit of Everything!",
 	"authors": [
-		"TheAndromedaCat","Lunaside Games","Not a Glitch Studios"
+		"TheAndromedaCat","A Little Bit of Everything Team","Not a Glitch Studios"
 	],
 	"contact": {
 		"homepage": "https://go.notaglitch.net",
-		"sources": "https://github.com/TheAndromedaCat/a-little-bit-of-music"
+		"sources": "https://github.com/Lunaside-Modding/a-little-bit-of-music"
 	},
 	"license": "All Rights Reserved",
 	"icon": "assets/albom/icon.png",

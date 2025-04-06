@@ -38,3 +38,12 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+/src/main/resources/assets/albom/sounds/coral.ogg
+/src/main/resources/assets/albom/sounds/graveyard.ogg
+/src/main/resources/assets/albom/sounds/hotel.ogg
+/src/main/resources/assets/albom/sounds/jade.ogg
+/src/main/resources/assets/albom/sounds/mystique.ogg
+/src/main/resources/assets/albom/sounds/radiance.ogg
+/src/main/resources/assets/albom/sounds/rainy.ogg
+/src/main/resources/assets/albom/sounds/snowfall.ogg
+/src/main/resources/assets/albom/sounds/spelunk.ogg
