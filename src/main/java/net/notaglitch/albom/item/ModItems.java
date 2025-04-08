@@ -2,6 +2,7 @@ package net.notaglitch.albom.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.Portal;
+import net.minecraft.component.DataComponentTypes;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -26,15 +27,15 @@ public class ModItems {
 
     // ALBOM Creative Discs
     public static final Item MUSIC_DISC_RAINY = registerItem("music_disc_rainy",
-            new Item(new Item.Settings().rarity(Rarity.EPIC).jukeboxPlayable(ModSounds.RAINY_KEY).maxCount(1)));
+            new Item(new Item.Settings().rarity(Rarity.EPIC).jukeboxPlayable(ModSounds.RAINY_KEY).maxCount(1).component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)));
     public static final Item MUSIC_DISC_MYSTIQUE = registerItem("music_disc_mystique",
-            new Item(new Item.Settings().rarity(Rarity.EPIC).jukeboxPlayable(ModSounds.MYSTIQUE_KEY).maxCount(1)));
+            new Item(new Item.Settings().rarity(Rarity.EPIC).jukeboxPlayable(ModSounds.MYSTIQUE_KEY).maxCount(1).component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)));
     public static final Item MUSIC_DISC_GRAVEYARD = registerItem("music_disc_graveyard",
-            new Item(new Item.Settings().rarity(Rarity.EPIC).jukeboxPlayable(ModSounds.GRAVEYARD_KEY).maxCount(1)));
+            new Item(new Item.Settings().rarity(Rarity.EPIC).jukeboxPlayable(ModSounds.GRAVEYARD_KEY).maxCount(1).component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)));
     public static final Item MUSIC_DISC_CORAL = registerItem("music_disc_coral",
-            new Item(new Item.Settings().rarity(Rarity.EPIC).jukeboxPlayable(ModSounds.CORAL_KEY).maxCount(1)));
+            new Item(new Item.Settings().rarity(Rarity.EPIC).jukeboxPlayable(ModSounds.CORAL_KEY).maxCount(1).component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)));
     public static final Item MUSIC_DISC_SNOWFALL = registerItem("music_disc_snowfall",
-            new Item(new Item.Settings().rarity(Rarity.EPIC).jukeboxPlayable(ModSounds.SNOWFALL_KEY).maxCount(1)));
+            new Item(new Item.Settings().rarity(Rarity.EPIC).jukeboxPlayable(ModSounds.SNOWFALL_KEY).maxCount(1).component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)));
 
 
     private static Item registerItem(String name, Item item){
